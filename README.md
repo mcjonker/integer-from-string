@@ -1,10 +1,10 @@
 # String Arbiter
-This small piece of Java code can be used to insure that an entered string is of a valid type:
+This small piece of Java code allows the transition from Strings to the following types:
 - Integer
 - Double
 - Char
 
-A user can use the included static methods to intake a value and make sure it is of the desired type so that the program does not simply try to use a random string as an integer, double, or char and ultimately crash due to an exception. While try-catch systems are robust, StringArbiter already includes feedbacks, making implementation much easier, and less work.
+This program takes in a string as a parameter, then based on which method you use, will return that respective type iff the string entered can be converted to be of that type. For example, if a string consisted completely of numbers, StringArbiter would let you directly convert that into a int data type. StringArbiter already includes feedbacks, making implementation much easier.
 
 Please notice the use of static methods, as provided in the tester program.
 
